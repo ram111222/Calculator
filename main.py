@@ -20,3 +20,6 @@ while True:
         print("It is not possible to divide by zero. Were not the ftc team 9791")
     finally:
         print("Have a good day!")
+        break
+
+
