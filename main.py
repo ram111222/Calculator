@@ -17,7 +17,7 @@ while True:
             print(f"the answer of {a} and {b} Multiplied is {Ans}")
         elif sgn == "subtract":
             Ans = Defined.sub(a, b)
-            print(f"The answer of {a} and {b} is {Ans}")
+            print(f"The answer of {a} and {b} subtracted is {Ans}")
         else:
             print("Invalid operation.")
     except ValueError:
