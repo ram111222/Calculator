@@ -12,6 +12,9 @@ while True:
         elif sgn == "divide":
             Ans = Defined.divide(a, b)
             print(f"the Answer of {a} and {b} divided is {Ans}")
+        elif sgn == "multiply":
+            Ans = Defined.multiply(a, b)
+            print(f"the answer of {a} and {b} Multiplied is {Ans}")
         else:
             print("Invalid operation.")
     except ValueError:
@@ -21,5 +24,3 @@ while True:
     finally:
         print("Have a good day!")
         break
-
-
