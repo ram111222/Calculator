@@ -12,7 +12,11 @@ while True:
         # Gathers user number/Equation inputs
         a = float(input("Enter your first number: "))
         b = float(input("Enter your second number: "))
-        sgn = input("What operation are you doing? (add): ")
+        sgn = input(f"What operation are you doing?\n "
+                    f"Add | {a} + {b}\n"
+                    f"Subtract | {a} - {b}\n "
+                    f"Multiply | {a} X {b}\n"
+                    f"Divide | {a} / {b} : ")
         # Starts checking to see if any inputs match
         if sgn == "add":
             # Pulls info from the DEFINED file to do equations
